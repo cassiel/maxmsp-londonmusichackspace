@@ -1,4 +1,5 @@
-maxmsp-londonmusichackspace
-===========================
+# maxmsp-londonmusichackspace
 
-Tutorial material for London Music Hackspace MaxMSP workshop
+Tutorial material for London Music Hackspace MaxMSP workshop.
+
+## 1-VIDEOTRACKING
