@@ -2,7 +2,7 @@
 	"name" : "3-NEWTON",
 	"version" : 1,
 	"creationdate" : -851952794,
-	"modificationdate" : -851675983,
+	"modificationdate" : -851603333,
 	"viewrect" : [ 195.0, 108.0, 469.0, 378.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
