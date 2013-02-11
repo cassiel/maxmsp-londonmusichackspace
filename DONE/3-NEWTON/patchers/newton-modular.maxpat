@@ -29,6 +29,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Anonymous Pro",
+					"fontsize" : 12.0,
+					"id" : "obj-29",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 450.0, 320.0, 56.0, 16.0 ],
+					"text" : "10. 0 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-44",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
@@ -122,10 +136,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 					{
-						"one-body[1]::RESTITUTION" : 0
-					}
-,
 					"fontname" : "Anonymous Pro",
 					"fontsize" : 12.0,
 					"id" : "obj-23",
@@ -141,7 +151,7 @@
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "u381000965"
+					"varname" : "u545000761"
 				}
 
 			}
@@ -165,7 +175,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-21",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 480.0, 435.0, 115.0, 18.0 ],
@@ -180,7 +190,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-16",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 480.0, 415.0, 115.0, 18.0 ],
@@ -195,7 +205,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-18",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 480.0, 395.0, 115.0, 18.0 ],
@@ -210,7 +220,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-15",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 480.0, 375.0, 122.0, 18.0 ],
@@ -296,7 +306,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 480.0, 355.0, 122.0, 18.0 ],
@@ -704,6 +714,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -813,6 +832,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "one-body.maxpat",
+				"bootpath" : "/Users/nick/GITHUB/cassiel/maxmsp-londonmusichackspace/DONE/3-NEWTON/patchers",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fm.maxpat",
 				"bootpath" : "/Users/nick/GITHUB/cassiel/maxmsp-londonmusichackspace/DONE/3-NEWTON/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
