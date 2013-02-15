@@ -689,45 +689,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-66",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 10.0, 300.0, 630.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-67",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 10.0, 270.0, 380.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-68",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 395.0, 270.0, 240.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"attr" : "collisions",
 					"fontname" : "Anonymous Pro",
 					"fontsize" : 12.0,
@@ -1122,7 +1083,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "fm.maxpat",
-				"bootpath" : "/Users/nick/GITHUB/cassiel/maxmsp-londonmusichackspace/DONE/3-NEWTON/patchers",
+				"bootpath" : "/Users/nick/GITHUB/cassiel/maxmsp-londonmusichackspace/DONE/2-NEWTON/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
