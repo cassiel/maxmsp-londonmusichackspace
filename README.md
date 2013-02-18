@@ -12,9 +12,9 @@ Use of Max 6 Projects. Implicit dependencies.
 
 Warming up with some video input and processing.
 
-### video-101
+### video-101 (vna Andrew Benson)
 
-Simple video capture (via Andrew Benson).
+Simple video capture.
 
 - `qmetro` to generate frames (possibly dropping)
 
@@ -76,7 +76,7 @@ Simple physics modelling - with a bit of sound.
 
 - code clean-up: an abstraction for the shape, body and hinge (`one-body`)
 
-- world and context are now both named (`WORLD`, `CTX`) so that the abstractions are seen by the main patcher
+- world and context are now both named (`WORLD`, `CTX`) so that the abstraction patcher is always seen by the main patcher (for illustrative purposes; when the patchers are instantiated the parent world and render context will find them)
 
 - `one-body` arguments: body name, hinge position, note played on collision
 
